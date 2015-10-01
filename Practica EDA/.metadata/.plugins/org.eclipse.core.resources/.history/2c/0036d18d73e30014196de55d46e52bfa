@@ -1,0 +1,71 @@
+package aemps;
+
+import java.util.Calendar;
+import java.util.Scanner;
+
+public class Agencia implements IAgencia {
+
+	@Override
+	public void recibir(Medicamento medicamento) {
+		// TODO Auto-generated method stub
+		Medicamento medicamento1;
+		System.out.println("escriba el nombre del medicamento");
+		
+		
+	}
+
+	@Override
+	public void revisar() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarMedicamento(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void aprobar(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void retirar(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarAprobados(Calendar fecha) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarAprobados() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarRetirados(Calendar fecha) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarRetirados() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultaMedicamentos(String principioActivo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

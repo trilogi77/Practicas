@@ -1,0 +1,49 @@
+package aemps;
+import java.util.Calendar;
+
+public class Medicamento {
+	private String nombre;
+	private String farmaceutica;
+	private String principio_Activo;
+	private String indicaciones;
+	private Calendar fecha;
+	
+	public Medicamento(String nombre, String farmaceutica,String  principio_Activo, String indicaciones){
+		this.nombre= nombre;
+		this.farmaceutica=farmaceutica;
+		this.principio_Activo=principio_Activo;
+		this.indicaciones=indicaciones;	
+		fecha=Calendar.getInstance();
+		
+	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getFarmaceutica() {
+		return farmaceutica;
+	}
+	public void setFarmaceutica(String farmaceutica) {
+		this.farmaceutica = farmaceutica;
+	}
+	public String getPrincipio_Activo() {
+		return principio_Activo;
+	}
+	public void setPrincipio_Activo(String principio_Activo) {
+		this.principio_Activo = principio_Activo;
+	}
+	public String getIndicaciones() {
+		return indicaciones;
+	}
+	public void setIndicaciones(String indicaciones) {
+		this.indicaciones = indicaciones;
+	}
+	public String getFecha() {
+		String fecha_string=fecha.toString();
+		return fecha_string;
+	}
+
+}

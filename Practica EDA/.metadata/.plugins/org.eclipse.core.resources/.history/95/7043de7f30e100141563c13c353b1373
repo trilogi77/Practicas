@@ -1,0 +1,5 @@
+package aemps;
+
+public abstract class IAgencia {
+
+}

@@ -1,0 +1,7 @@
+package aemps;
+
+import edalib.list.interfaces.IQueue;
+
+public class Cola implements IQueue<E> {
+
+}

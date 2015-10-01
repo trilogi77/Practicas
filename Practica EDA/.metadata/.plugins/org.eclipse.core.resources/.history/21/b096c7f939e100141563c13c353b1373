@@ -1,0 +1,16 @@
+package aemps;
+import java.util.Calendar;
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Medicamento medicamento1;
+		medicamento1=new Medicamento("anfetas", "droga", "prueba", "prueba2");
+		System.out.println(medicamento1.getPrincipio_Activo());
+		medicamento1.setPrincipio_Activo("anfetaminas");
+		System.out.println(medicamento1.getPrincipio_Activo());
+		System.out.println(medicamento1.getFecha());
+
+	}
+
+}

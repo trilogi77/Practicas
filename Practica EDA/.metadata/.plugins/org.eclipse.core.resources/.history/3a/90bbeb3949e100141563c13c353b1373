@@ -1,0 +1,71 @@
+package aemps;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class Ajencia implements IAgencia; IQueue<E> {
+
+	@Override
+	public void recibir(Medicamento medicamento) {
+		// TODO Auto-generated method stub
+		cola queue[];
+		
+
+	}
+
+	@Override
+	public void revisar() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarMedicamento(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void aprobar(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void retirar(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarAprobados(Calendar fecha) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarAprobados() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarRetirados(Calendar fecha) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarRetirados() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultaMedicamentos(String principioActivo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

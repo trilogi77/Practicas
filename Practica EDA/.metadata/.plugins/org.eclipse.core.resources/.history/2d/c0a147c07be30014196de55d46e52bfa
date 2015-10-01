@@ -1,0 +1,85 @@
+package aemps;
+
+import java.util.Calendar;
+//import edalib.list.singlelink.SQueue;
+import java.util.Scanner;
+
+public class Agencia implements IAgencia {
+
+	@Override
+	public void recibir(Medicamento medicamento) {
+		// TODO Auto-generated method stub
+		
+		Scanner entrada=new Scanner(System.in);
+		System.out.println("Escriba el nombre del medicamento");
+		String nombre=entrada.next();
+		System.out.println("Escriba el nombre de la farmaceutica ");
+		String farmaceutica=entrada.next();
+		System.out.println("Escriba el principio activo");
+		String principio_Activo=entrada.next();
+		System.out.println("Escriba las indicaciones");
+		String indicaciones=entrada.next();
+		System.out.println("Escriba los efectos adversos");
+		String efectos_Adversos=entrada.next();
+		Medicamento  medicamento1;
+		medicamento1=new Medicamento(nombre, farmaceutica, principio_Activo, indicaciones,efectos_Adversos);
+		
+		
+		
+	}
+
+	@Override
+	public void revisar() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarMedicamento(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void aprobar(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void retirar(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarAprobados(Calendar fecha) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarAprobados() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarRetirados(Calendar fecha) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarRetirados() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultaMedicamentos(String principioActivo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

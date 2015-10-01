@@ -1,0 +1,18 @@
+package aemps;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Medicamento medicamento = new Medicamento("0pra", "esd", "fase", "dfe", "sae");
+		Agencia agencia;
+		agencia=new Agencia();
+		agencia.recibir(medicamento);
+		agencia.getColaEspera().front();
+		
+
+	}
+	;
+}

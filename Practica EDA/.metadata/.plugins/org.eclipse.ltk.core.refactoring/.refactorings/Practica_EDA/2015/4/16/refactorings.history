@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;aemps.Agencia.recibir().entrada&apos; in &apos;aemps.Agencia.recibir()&apos; to field&#x0D;&#x0A;- Original project: &apos;Practica_EDA&apos;&#x0D;&#x0A;- Original element: &apos;aemps.Agencia.recibir().entrada&apos;&#x0D;&#x0A;- Field name: &apos;entrada&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;entrada&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;aemps{Agencia.java" name="entrada" selection="280 30" stamp="1429107188723" static="false" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,12 @@
+package aemps;
+
+import edalib.list.interfaces.IQueue;
+
+public class Cola implements IQueue<E> {
+	public boolean isEmpty(){}
+	public void enqueue(Medicamento elem){}
+	public Medicamento dequeue(){}
+	public Medicamento front(){}
+	public int getSize(){}
+
+}

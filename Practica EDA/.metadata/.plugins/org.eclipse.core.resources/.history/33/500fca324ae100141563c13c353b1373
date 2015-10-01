@@ -1,0 +1,88 @@
+package aemps;
+
+import java.util.Calendar;
+
+import edalib.list.interfaces.IQueue;
+
+public class Agencia implements IAgencia, IQueue<E> {
+
+	@Override
+	public void recibir(Medicamento medicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void revisar() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarMedicamento(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void aprobar(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void retirar(String nombreMedicamento) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarAprobados(Calendar fecha) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarAprobados() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarRetirados(Calendar fecha) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultarRetirados() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void consultaMedicamentos(String principioActivo) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public boolean isEmpty() {
+		return true;
+
+	}
+
+	public E dequeue() {
+
+	}
+
+	public void enquieue(Medicamento elem) {
+
+	}
+
+	public E front() {
+
+	}
+	public int getSize(){
+		
+	}
+}
